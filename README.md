@@ -1,24 +1,30 @@
-CS50 AI Projects
-This repository contains my solutions for various projects in the CS50 AI course. Each week's project is organized in its respective directory. Below are the for you to use the code. 
-Feel free to pull the repository!
-
 Week 0: TicTacToe
-This project implements a TicTacToe game with an AI opponent using the Minimax algorithm.
+This project implements a TicTacToe game with an AI opponent that uses the Minimax algorithm to make optimal moves.
 
 Instructions to Run TicTacToe
-Clone this repository to your local machine using the following command:
+Follow these steps to clone and run the TicTacToe project on your local machine:
+
+Clone the Repository
+Open your terminal and clone the repository using the following command:
+
+bash
+Copy code
 git clone https://github.com/weilok2021/CS50AI.git
-Navigate to the TicTacToe project (Week 0):
-
+Navigate to the TicTacToe Project (Week 0)
 After cloning, change into the week0 directory:
+
+bash
+Copy code
 cd CS50AI/week0
-Install dependencies:
-
+Install Dependencies
 Install the required Python packages using pip:
+
+bash
+Copy code
 pip3 install -r requirements.txt
-Run the game:
+Run the Game
+To play the TicTacToe game against the AI, execute the following command:
 
-Run the TicTacToe game by executing the following command:
+bash
+Copy code
 python runner.py
-You can now play TicTacToe against the AI!
-
