@@ -1,8 +1,8 @@
-# Tic Tac Toe AI
+# CS50AI
 
-This repository contains the implementation of Tic Tac Toe with an AI player using the Minimax algorithm. You can play against the AI or explore the code.
+This repository contains my solutions for various projects in the CS50 AI course. Each week's project is organized in its respective directory.
 
-## How to Run
+## Week 0: TicTacToe
 
 Feel free to pull this repository and follow the steps below to run the game on your local machine.
 
@@ -27,7 +27,7 @@ Feel free to pull this repository and follow the steps below to run the game on 
 4. **Run the game**:
     Once the dependencies are installed, you can play the Tic Tac Toe game against the AI:
     ```bash
-    python runner.py
+    python3 runner.py
     ```
 
 ### Requirements:
@@ -40,3 +40,6 @@ Feel free to pull this repository and follow the steps below to run the game on 
 ---
 
 Feel free to explore the code and make improvements!
+
+## Week 1: MineSweeper
+
