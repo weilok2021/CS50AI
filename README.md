@@ -1,30 +1,42 @@
-Week 0: TicTacToe
-This project implements a TicTacToe game with an AI opponent that uses the Minimax algorithm to make optimal moves.
+# Tic Tac Toe AI
 
-Instructions to Run TicTacToe
-Follow these steps to clone and run the TicTacToe project on your local machine:
+This repository contains the implementation of Tic Tac Toe with an AI player using the Minimax algorithm. You can play against the AI or explore the code.
 
-Clone the Repository
-Open your terminal and clone the repository using the following command:
+## How to Run
 
-bash
-Copy code
-git clone https://github.com/weilok2021/CS50AI.git
-Navigate to the TicTacToe Project (Week 0)
-After cloning, change into the week0 directory:
+Feel free to pull this repository and follow the steps below to run the game on your local machine.
 
-bash
-Copy code
-cd CS50AI/week0
-Install Dependencies
-Install the required Python packages using pip:
+### Steps:
 
-bash
-Copy code
-pip3 install -r requirements.txt
-Run the Game
-To play the TicTacToe game against the AI, execute the following command:
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/weilok2021/CS50AI.git
+    ```
 
-bash
-Copy code
-python runner.py
+2. **Navigate to the project directory**:
+    ```bash
+    cd CS50AI/week0/tictactoe
+    ```
+
+3. **Install the required dependencies**:
+    Make sure you have Python installed, and then install the required package using:
+    ```bash
+    pip3 install -r requirements.txt
+    ```
+
+4. **Run the game**:
+    Once the dependencies are installed, you can play the Tic Tac Toe game against the AI:
+    ```bash
+    python runner.py
+    ```
+
+### Requirements:
+- Python 3.x
+- `pygame` (Installed via `requirements.txt`)
+
+### Features:
+- Play Tic Tac Toe against an AI that uses the Minimax algorithm to make optimal moves.
+
+---
+
+Feel free to explore the code and make improvements!
